@@ -74,5 +74,3 @@ This project leverages a modern stack for building and running microservices:
 - **Polly** – for implementing resilient HTTP communication with retries and circuit breakers
 - **RabbitMQ** – enabling asynchronous messaging and event-driven architecture between services
 
-## License
-MIT
