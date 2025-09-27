@@ -2,20 +2,25 @@
 
 This project is based on the course: [**.NET Microservices – Full Course for Beginners**](https://www.youtube.com/watch?v=ByYyk8eMG6c) by Julio Casal on freeCodeCamp.org
 
-This project provides a simple frontend to test and interact with the Play microservices system, which includes Play.Catalog and Play.Inventory services. The backend is built with .NET as independent microservices, and this frontend provides a user interface to interact with them.
+It provides a lightweight frontend for interacting with the Play microservices ecosystem, which includes Play.Catalog and Play.Inventory services. The backend is built as independent .NET microservices, while this frontend offers a user-friendly interface to test and manage the system.
 
-## About the Project
-- **Backend:** .NET microservices (Play.Catalog, Play.Inventory)
-- **Frontend:** React + Vite (this project)
+## What This Project Showcases
+
+- Data persistence with MongoDB
+- Repository pattern
+- Dependency Inversion
+- Entity contracts
+- Asynchronous programming
+- Shared code with NuGet packages
+- Docker containers and Docker Compose
+- Async inter-service communication
+- Timeouts, retries, and circuit breaker with Polly
+- Microservices autonomy
+- Event-driven messaging with RabbitMQ and MassTransit
 
 ## Features
 - View and manage catalog items from Play.Catalog
 - View and manage inventory from Play.Inventory
-
-## Project Structure
-- `src/api/catalog.js`: API calls to Play.Catalog
-- `src/api/inventory.js`: API calls to Play.Inventory
-- `src/`: React components, styles, and assets
 
 ## Getting Started
 ### Prerequisites
