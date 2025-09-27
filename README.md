@@ -1,8 +1,6 @@
-# .NET Microservices – Full Course for Beginners
+# .NET Microservices
 
-# Play.Frontend
-
-> This project is based on the course: **.NET Microservices – Full Course for Beginners** by Julio Casal on freeCodeCamp.org
+This project is based on the course: [**.NET Microservices – Full Course for Beginners**](https://www.youtube.com/watch?v=ByYyk8eMG6c) by Julio Casal on freeCodeCamp.org
 
 This project provides a simple frontend to test and interact with the Play microservices system, which includes Play.Catalog and Play.Inventory services. The backend is built with .NET as independent microservices, and this frontend provides a user interface to interact with them.
 
