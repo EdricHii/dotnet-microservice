@@ -41,7 +41,7 @@ To run the backend microservices and required infrastructure, follow these steps
 1. Start the infrastructure services (MongoDB, RabbitMQ, etc.) using Docker Compose:
 
 ```sh
-docker-compose -f ../Play.Infra/docker-compose.yml up mongo rabbitmq
+cd ../Play.Infra docker-compose up
 ```
 
 2. In separate terminals, start each .NET microservice:
